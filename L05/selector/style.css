@@ -1,0 +1,33 @@
+/* elemennt selector */
+
+p{
+    color: aqua;
+}
+/* class selector */
+
+.para{
+    color: blue;
+}
+.para1{
+    color: red;
+}
+
+/* id selector */
+
+#spclpara{
+    color: green;
+}
+/* universal selector */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* attributes selector */
+
+a[href="https://www.facebook.com/"]{
+    color: rgb(175, 41, 41);
+}
+
+/*!important-
