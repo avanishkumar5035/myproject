@@ -1,0 +1,68 @@
+/* .div{
+    color: aqua;
+} */
+
+
+/* descendent selector */
+
+div p{
+    color: red;
+}
+
+
+
+.para{
+    color: aqua;
+}
+
+
+p.para{
+    color: rgb(100, 52, 205);
+}
+
+/* child selector  */
+
+ul>li{
+    color: brown;
+}
+
+
+li+li{
+    color: blue;
+}
+
+
+
+
+
+/* immedate selector  */
+
+#favcity{
+    color: red;
+}
+
+
+#favcity+li{
+    color: aqua;
+}
+
+
+/* general sibling  */
+
+#favcity ~ li{
+    color: rgb(255, 0, 208);
+}
+
+
+/* pseudo classes */
+
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: brown;
+
+}
+
